@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadratic Equation Solver</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main>
+        <h1>Quadratic Equation Solver</h1>
+
+        <div class="details">
+            <div class="first-equ">
+                <label>a</label>
+                <input type="number" name="a" id="first-equ">
+            </div>
+            <div class="second-equ">
+                <label>b</label>
+                <input type="number" name="b" id="second-equ">
+            </div>
+            <div class="third-equ">
+                <label>c</label>
+                <input type="number" name="c" id="third-equ">
+            </div>
+
+            <button onclick="solve()">SOLVE</button>
+        </div>
+
+        <div class="results">
+            <h2>Results:</h2>
+            <div class="first-result">
+                <h3>X <sub>1</sub> = </h3>
+                <h3 id="first-result"></h3>
+            </div>
+            <div class="second-result">
+                <h3>X <sub>2</sub> = </h3>
+                <h3 id="second-result"></h3>
+            </div>
+        </div>
+    </main>
+
+    <!-- <span>Made by: <a href="www.github.com/NiiAyite">Nii Ayite Akrong</a></span> -->
+</body>
+<script src="main.js"></script>
+</html>
